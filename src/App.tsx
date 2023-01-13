@@ -24,19 +24,9 @@ export default function App(): JSX.Element {
 	
 	return <NavigationContainer>
 		<Tabs.Navigator screenOptions={{ headerShown: false }}>
-    	  <Tabs.Screen name="Account_Tab" component={Screen} />
-    	  <Tabs.Screen name="Bill_Tab" component={Screen} />
     	  <Tabs.Screen name="Shop_Tab" component={Shop} />
-    	  <Tabs.Screen name="Settings_Tab" component={Screen} />
     	</Tabs.Navigator>
 	</NavigationContainer>
-}
-
-const Screen = () => {
-
-	return <SafeAreaView>
-		<Text>Screen goes here</Text>
-	</SafeAreaView>
 }
 
 

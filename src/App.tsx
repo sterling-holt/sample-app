@@ -9,14 +9,9 @@ import {
 // 	libraries
 import { NavigationContainer } from '@react-navigation/native'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
+
+//	pages
 import Shop from './pages/shop'
-
-
-type SectionProps = PropsWithChildren<{
-	title: string;
-}>
-	
-	
 	
 export default function App(): JSX.Element {
 		
